@@ -1,0 +1,25 @@
+{
+  "name": "linkr",
+  "version": "1.0.0",
+  "description": "store links for future use",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theavish/linkr.git"
+  },
+  "author": "Avi Samloff <avi.samloff@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theavish/linkr/issues"
+  },
+  "homepage": "https://github.com/theavish/linkr#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bookshelf": "^0.9.2",
+    "express": "^4.13.4",
+    "knex": "^0.10.0"
+  }
+}
